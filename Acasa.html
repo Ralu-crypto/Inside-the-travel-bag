@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html >
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<style>
+
+body {
+  background-color: lightblue;
+  }
+
+h1 {
+   text-align:center;
+   font-family:Times new roman;
+   text-decoration:underline;
+}
+   
+p {
+   text-indent:10px;
+   }
+   
+ul {
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f2f2f2;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: white;
+}
+
+.active {
+  background-color: white;
+} 
+	 
+  
+   img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Make the image fully responsive */
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+</style>
+</head> 
+
+<body>
+<img src="imagini/valiza1.jpg"width=50%>
+
+<ul>
+  <li><a class="active" href="ACASA.html">ACASA</a></li>
+  <li><a href="Evenimente.html">EVENIMENTE</a></li>
+  <li><a href="Video.html">VIDEO</a></li>
+  <li><a href="DESPRE.html">DESPRE</a><li>
+  <li><a href="CONTACT.html">CONTACT</a><li>
+</ul>
+
+<h1> Pe urmele faraonilor din Egiptul Antic</h1>
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item">
+   <img src="imagini/valearegilor.jpg">
+    </div>
+    <div class="carousel-item">
+	<img src="imagini/sahara1.jpg">
+    </div>
+	<div class="carousel-item active">
+      <img src="imagini/piramida.jpg">
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+  
+</div>
+
+
+</body>
+</html>
